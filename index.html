@@ -1,0 +1,167 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Filtro de dados</title>
+
+    <!-- CSS only -->
+    <link href="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/css/bootstrap.min.css" rel="stylesheet" integrity="sha384-0evHe/X+R7YkIZDRvuzKMRqM+OrBnVFBL6DOitfPri4tjfHxaWutUpFmBp4vmVor" crossorigin="anonymous">
+    <link rel="stylesheet" href="app.css">
+</head>
+<body class="container pt-5">
+
+    <input type="text" onkeyup="pesquisar()" 
+    class="form-control ms-auto me-auto w-50 border-secondary">
+    
+    <div class="row mt-4">
+        <div class="card col-3">Açucena</div>
+        <div class="card col-3">Augusta</div>
+        <div class="card col-3">Coralina</div>
+        <div class="card col-3">Hortênsia</div>
+        <div class="card col-3">Martina</div>
+        <div class="card col-3">Pilar</div>
+        <div class="card col-3">Adele</div>
+        <div class="card col-3">Ayla</div>
+        <div class="card col-3">Agnes</div>
+        <div class="card col-3">Alegra</div>
+        <div class="card col-3">Allana</div>
+        <div class="card col-3">Amélia</div>
+        <div class="card col-3">Amora</div>
+        <div class="card col-3">Anabel</div>
+        <div class="card col-3">Analu</div>
+        <div class="card col-3">Anastácia</div>
+        <div class="card col-3">Angelina</div>
+        <div class="card col-3">Benedita</div>
+        <div class="card col-3">Betina</div>
+        <div class="card col-3">Branca</div>
+        <div class="card col-3">Caetana</div>
+        <div class="card col-3">Carlota</div>
+        <div class="card col-3">Celina</div>
+        <div class="card col-3">Charlote</div>
+        <div class="card col-3">Constança</div>
+        <div class="card col-3">Cora</div>
+        <div class="card col-3">Dora</div>
+        <div class="card col-3">Eleonara</div>
+        <div class="card col-3">Esperança</div>
+        <div class="card col-3">Estrela</div>
+        <div class="card col-3">Felipa</div>
+        <div class="card col-3">Flora</div>
+        <div class="card col-3">Florença</div>
+        <div class="card col-3">Frederica</div>
+        <div class="card col-3">Gaia</div>
+        <div class="card col-3">Iolanda</div>
+        <div class="card col-3">Maia</div>
+        <div class="card col-3">Guadalupe</div>
+        <div class="card col-3">Matilda</div>
+        <div class="card col-3">Ramona</div>
+        <div class="card col-3">Julieta</div>
+        <div class="card col-3">Lia</div>
+        <div class="card col-3">Melina</div>
+        <div class="card col-3">Mia</div>
+        <div class="card col-3">Linda</div>
+        <div class="card col-3">Lolita</div>
+        <div class="card col-3">Louise</div>
+        <div class="card col-3">Luna</div>
+        <div class="card col-3">Mabel</div>
+        <div class="card col-3">Margarida</div>
+        <div class="card col-3">Petra</div>
+        <div class="card col-3">Pérola</div>
+        <div class="card col-3">Zoé</div>
+        <div class="card col-3">Penélope</div>
+        <div class="card col-3">Pandora</div>
+        <div class="card col-3">Violeta</div>
+        <div class="card col-3">Vida</div>
+        <div class="card col-3">Olga</div>
+        <div class="card col-3">Naomi</div>
+        <div class="card col-3">Úrsula</div>
+        <div class="card col-3">Teodora</div>
+        <div class="card col-3">Micaela</div>
+        <div class="card col-3">Tarsila</div>
+        <div class="card col-3">Serena</div>
+        <div class="card col-3">Alexandre</div>
+        <div class="card col-3">Eduardo</div>
+        <div class="card col-3">André</div>
+        <div class="card col-3">Antônio</div>
+        <div class="card col-3">Enzo</div>
+        <div class="card col-3">Enrico</div>
+        <div class="card col-3">Augusto</div>
+        <div class="card col-3">Erick</div>
+        <div class="card col-3">Breno</div>
+        <div class="card col-3">Felipe</div>
+        <div class="card col-3">Fernando</div>
+        <div class="card col-3">Bruno</div>
+        <div class="card col-3">Caio</div>
+        <div class="card col-3">Francisco</div>
+        <div class="card col-3">Henrique</div>
+        <div class="card col-3">Henry</div>
+        <div class="card col-3">Murilo</div>
+        <div class="card col-3">Nathan</div>
+        <div class="card col-3">Ian</div>
+        <div class="card col-3">Otávio</div>
+        <div class="card col-3">Isaac</div>
+        <div class="card col-3">Pietro</div>
+        <div class="card col-3">João</div>
+        <div class="card col-3">Rafael</div>
+        <div class="card col-3">Theo</div>
+        <div class="card col-3">Thiago</div>
+        <div class="card col-3">Thomas</div>
+        <div class="card col-3">Vicente</div>
+        <div class="card col-3">Vinícius</div>
+        <div class="card col-3">Vitor</div>
+        <div class="card col-3">Yago</div>
+        <div class="card col-3">Ygor</div>
+        <div class="card col-3">Yuri</div>
+        <div class="card col-3">Raul</div>
+        <div class="card col-3">Rian</div>
+        <div class="card col-3">Ricardo</div>
+        <div class="card col-3">Rodrigo</div>
+        <div class="card col-3">Samuel</div>
+        <div class="card col-3">Mathias</div>
+        <div class="card col-3">Gustavo</div>
+        <div class="card col-3">Danilo</div>
+        <div class="card col-3">Guilherme</div>
+        <div class="card col-3">Daniel</div>
+        <div class="card col-3">Cauã</div>
+        <div class="card col-3">Frederico</div>
+        <div class="card col-3">Luan</div>
+        <div class="card col-3">Lucas</div>
+        <div class="card col-3">Leonardo</div>
+        <div class="card col-3">Kaique</div>
+    </div>
+
+
+<!-- JavaScript Bundle with Popper -->
+<script src="https://cdn.jsdelivr.net/npm/bootstrap@5.2.0-beta1/dist/js/bootstrap.bundle.min.js" integrity="sha384-pprn3073KE6tl6bjs2QrFaJGz5/SUsLqktiwsUTF55Jfv3qYSDhgCecCxMW52nD2" crossorigin="anonymous"></script>
+<script>
+
+function pesquisar() {
+  var input, filter, row, card, i, textValue;
+  input = document.querySelector("input");
+  filter = input.value.toUpperCase();
+  row = document.querySelector(".row");
+  card = row.getElementsByClassName("card");
+
+
+  for(i = 0; i < card.length; i++)
+  {
+    
+    textValue = card[i].textContent || card[i].inneText;
+
+    if(textValue.toUpperCase().indexOf(filter) > -1)
+    {
+        card[i].style.display = "";
+    }
+    else
+    {
+        card[i].style.display = "none";
+    }
+  }
+
+  
+}
+
+</script>
+</body>
+</html>

@@ -1,0 +1,9 @@
+*{
+    box-sizing: border-box;
+}
+.card
+{
+    width: 18%;
+    margin-left: 1%;
+    margin-bottom: 1%;
+}
